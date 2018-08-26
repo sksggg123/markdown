@@ -6,7 +6,13 @@
 * ### `###` -> `<h3>` 태그와 같습니다.
 
 >## 인라인코드 표현
-`<a> 인라인코드 -> ` <a>인라인코드
+* `<a> 인라인코드 -> ` <a>인라인코드.
+
+>## Italics
+* `_Input Text_` -> _Input Text_.
+
+>## Bold
+* `**Input Text**` -> **Input Text**.
 
 >## URL Link
 * 단순 URL 입력시 링크로 된다.
@@ -14,9 +20,13 @@
 * 주소를 숨기고 싶을때는 `[문구정의 ~ ](URL주소 ~ )` 문법을 쓴다.
     * [sksggg123 정리 링크](https://github.com/sksggg123/sksggg123/)
 
+>## 이미지 Link
+* 이미지에 URL을 입히고 싶을때에는 `![문구정의 ~ ](Image Url ~)` 으로 입력하면 아래와 같이 된다. (출처:google main page logo)
+    *   ![naver](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png)
+
 
 >## 소스코드 표현
-*  ` ```java [중략] ``` `  중략 안에 소스코드 입력하면 아래처럼 표현 가능
+*  ` ```java [중략] ``` `  중략 안에 소스코드 입력하면 아래처럼 표현 가능.
 
 ```java
     public class Utils{

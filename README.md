@@ -1,2 +1,36 @@
-# markdown
-markdown 문법정리
+># MarkDown 문법 정리 (작성중)
+
+>## 헤더 표현
+* # `#` -> `<h1>` 태그와 같습니다.
+* ## `##` -> `<h2>` 태그와 같습니다.
+* ### `###` -> `<h3>` 태그와 같습니다.
+
+>## 인라인코드 표현
+`<a> 인라인코드 -> ` <a>인라인코드
+
+>## URL Link
+* 단순 URL 입력시 링크로 된다.
+    * https://github.com/sksggg123/sksggg123/
+* 주소를 숨기고 싶을때는 `[문구정의 ~ ](URL주소 ~ )` 문법을 쓴다.
+    * [sksggg123 정리 링크](https://github.com/sksggg123/sksggg123/)
+
+
+>## 소스코드 표현
+*  ` ```java [중략] ``` `  중략 안에 소스코드 입력하면 아래처럼 표현 가능
+
+```java
+    public class Utils{
+        public static List<String> getList(final String code)
+        {
+            List<String> returnList = new ArrayList<>();
+            if(code.isEmpty()){
+                returnList.add("null");
+                return returnList
+            }else
+            {
+                returnList.add(code);
+                return returnList
+            }
+        }
+    }
+```

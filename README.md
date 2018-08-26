@@ -6,7 +6,7 @@
 * ### `###` -> `<h3>` 태그와 같습니다.
 
 >## 인라인코드 표현
-* `<a> 인라인코드 -> ` <a>인라인코드.
+* `<a>Input Text -> ` <a>Input Text.
 
 >## Italics
 * `_Input Text_` -> _Input Text_.
